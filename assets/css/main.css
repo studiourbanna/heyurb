@@ -1,0 +1,57 @@
+/*Import Bulma*/
+@import url("https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.0/css/bulma.min.css");
+
+/*Import a Google Font*/
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,700|family=Lato');
+
+/*Import Kollektif And Lemon*/
+@import url("../fonts/kollektif/stylesheet.css");
+@import url("../fonts/lemon-tuesday/stylesheet.css");
+
+@import url("404.css");
+
+/*👇 for preload play/pause svg 😎*/
+body:after {
+    position: absolute;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    z-index: -1;
+    content: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/163884/play.svg)
+    url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/163884/pause.svg);
+    font-family: 'Lato';
+}
+
+.is-urb{
+    font-family: 'kollektifregular';
+}
+
+.is-urb .is-bold{
+    font-family: 'kollektifbold';
+}
+
+.is-urb .is-italic {
+    font-family: 'kollektifitalic';
+}
+
+.is-urb .is-bold .is-italic{
+    font-family: 'kollektifbold_italic';
+}
+
+.is-social{
+    font-family: 'social_media_circledregular';
+}
+
+.is-hey{
+    font-family: 'lemon_tuesdayregular';
+    font-size: 1.8em;
+    color: yellowgreen;
+}
+
+.input{
+    max-width: 70%;
+}
+
+.message{
+    background: none;
+}
