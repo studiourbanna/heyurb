@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>{{site.title}}</title>
+
+        {% seo %}
+
+<!--        <link rel="shortcut icon" type="image/x-icon" href="{{site.baseurl}}/{{site.favicon}}">-->
+
+        <!-- Bootstrap and Theme Stylesheet -->
+        <link rel="stylesheet" href="{{site.baseurl}}/assets/css/main.css">
+
+        {% include tracking-header.html %}
+
+
+    </head>
+    <body>
+        <section class="hero is-fullheight is-dark is-bold">
+            <div class="hero-head">
+                <header class="navbar">
+                    <div class="container">
+                        <div class="navbar-brand">
+                            <a href="{{ site.baseurl }}/index.html"class="navbar-item is-hey">
+                                {{site.title}}
+                            </a>
+                            <span class="navbar-burger burger" data-target="navbarMenuHeroC">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </span>
+                        </div>
+                        <div class="navbar-end">
+                            {% include menu-header.html %}
+                        </div>
+                    </div>
+                </header>
+            </div>
+            <!-- Content -->
+            <div class="hero-body">
+                <div class="container">
+                    {{ content }}
+                </div>
+            </div>
+            <!-- Footer -->
+            <div class="hero-foot">
+                <div class="content has-text-centered">
+                    <span class="mb-0 mt-1 mr-2 is-hey"><strong>{{site.title}}</strong></span>
+                    <p>
+                        <span>Copyright © <script>document.write(new Date().getFullYear())</script>.
+                        <a href="https://{{site.github_username}}.github.io" target="_blank" class="is-light is-urb"><strong>stdurb</strong></a>.</span>
+                    </p>
+                </div>
+            </div>
+        </section>
+        {% include tracking-footer.html %}
+    </body>
+</html>
