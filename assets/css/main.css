@@ -53,6 +53,8 @@ body:after {
 background: rgba(0, 0, 0, 0) linear-gradient(270deg, rgb(70, 36, 102), rgb(140, 97, 182)) repeat scroll 0% 0% / 200% 200%;
 animation: 46s ease 0s infinite normal none running CustomAnimation;}
 
+@keyframes CustomAnimation {0% {background-position:0% 50%;}50% {background-position:100% 50%;}100% {background-position:0% 50%;}
+
 .input{
     max-width: 70%;
 }
