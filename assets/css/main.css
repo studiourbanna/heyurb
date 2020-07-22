@@ -49,6 +49,10 @@ body:after {
     color: yellowgreen;
 }
 
+.is-gradient{
+background: rgba(0, 0, 0, 0) linear-gradient(270deg, rgb(70, 36, 102), rgb(140, 97, 182)) repeat scroll 0% 0% / 200% 200%;
+animation: 46s ease 0s infinite normal none running CustomAnimation;}
+
 .input{
     max-width: 70%;
 }
