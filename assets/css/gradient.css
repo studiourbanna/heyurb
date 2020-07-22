@@ -1,0 +1,24 @@
+.css-selector {
+    background: linear-gradient(37deg, #572466, #af74c1);
+    background-size: 400% 400%;
+
+    -webkit-animation: PurpleGradient 17s ease infinite;
+    -moz-animation: PurpleGradient 17s ease infinite;
+    animation: PurpleGradient 17s ease infinite;
+}
+
+@-webkit-keyframes PurpleGradient {
+    0%{background-position:0% 23%}
+    50%{background-position:100% 78%}
+    100%{background-position:0% 23%}
+}
+@-moz-keyframes PurpleGradient {
+    0%{background-position:0% 23%}
+    50%{background-position:100% 78%}
+    100%{background-position:0% 23%}
+}
+@keyframes PurpleGradient {
+    0%{background-position:0% 23%}
+    50%{background-position:100% 78%}
+    100%{background-position:0% 23%}
+}
