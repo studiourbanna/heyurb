@@ -9,6 +9,7 @@
 @import url("../fonts/lemon-tuesday/stylesheet.css");
 
 @import url("404.css");
+@import url("gradient.css");
 
 /*👇 for preload play/pause svg 😎*/
 body:after {
